@@ -26,7 +26,6 @@ dependencies:
   get: ^4.3.8
   http: ^0.13.3
   rounded_loading_button: ^2.0.5
-  wordpress_api: ^1.1.0
   intl: ^0.17.0
   animator: ^3.1.0
 
