@@ -88,9 +88,11 @@ fetchAuthor() async{
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(15),
-                    child:  Text(removeAllHtmlTags(args.content.toString()), style: TextStyle( fontWeight: FontWeight.w400 , fontSize: 18),),
+                  child: SingleChildScrollView(
+                    child: Padding(
+                      padding: const EdgeInsets.all(15),
+                      child:  Text(removeAllHtmlTags(args.content.toString()), style: TextStyle( fontWeight: FontWeight.w400 , fontSize: 18),),
+                    ),
                   ),
                 ),
               ),
